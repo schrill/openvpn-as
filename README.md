@@ -1,2 +1,3 @@
 # openvpn-as
-Simple openvpn acces server python servlet
+Simple openvpn acces server 
+Python servlet script
