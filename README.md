@@ -3,7 +3,7 @@ Simple OPENVPN Access server implementation
 based on documentation provided by https://github.com/eduvpn/documentation/blob/master/attic/AS_API.md
 
 To every one who would like to use OpenVPN client app on Android and iOS and found placing ovpn files to mobile manually to much work.
-I've written this python servlet in order to easily access the configuration files from within the android client as by using an official openvpn AS server.
+I've written this python servlet in order to easily provide the configuration files from within the android client as by using the import function from the client.
 The script is written in python3 and the following libraries are required os,base64,xmlrpc.server,redis
 The script listens on localhost port 15000 by default. Default redis configuration: localhost port 6379. 
 The script can distribute multiple ovpn files depending on the hostname by which the servlet is accessed.
